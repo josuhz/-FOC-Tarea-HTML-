@@ -1,33 +1,31 @@
-/* Reset básico */
-* {
+/* styles.css */
+
+body {
+    background-color: #faa; /*2004 + 2006 = 4010, FAA hexadecimal*/
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Estilos del body */
-body {
-    background-color: #f4f4f4;
     color: #333;
-    text-align: center;
 }
 
-/* Estilos del header */
 header {
-    background-color: #0073e6;
+    background-color: #055;
     color: white;
     padding: 20px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 10px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 nav ul li a {
@@ -36,19 +34,65 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Contenido */
-.contenido {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-/* Footer */
+section.contenido {
+    padding: 20px;
+    
+    background-color: #fcd1c6;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*section.contenido h2 {
+    color: #b30000;
+    margin-bottom: 10px;
+}*/
+
+section.contenido p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section.contenido ul {
+    padding-left: 20px;
+}
+
+section.contenido li {
+    margin-bottom: 5px;
+}
+
+section.contenido2 {
+    width: 1200px;
+    margin: 0 auto; /* centra horizontalmente */
+    padding: 20px;
+
+}
+
+.conversion {
+    background-color: #fcd1c6;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 2px solid #055;
+}
+
 footer {
-    background: #222;
+    background-color: #055;
     color: white;
+    text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
