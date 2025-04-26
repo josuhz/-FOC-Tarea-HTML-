@@ -83,7 +83,8 @@ section.contenido li {
 }
 
 section.contenido2 {
-    width: 1200px;
+    width: 700px;
+    max-width: 1000px;
     margin: 0 auto; /* centra horizontalmente */
     padding: 20px;
 
