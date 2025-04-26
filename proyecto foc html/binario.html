@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +15,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Binario</a></li>
+                <li class="active"><a href="#">Binario</a></li>
                 <li><a href="octal.html">Octal</a></li>
                 <li><a href="decimal.html">Decimal</a></li>
                 <li><a href="hexadecimal.html">Hexadecimal</a></li>
@@ -27,60 +28,60 @@
           <h2>Conversión de Números Binarios</h2>
         </div>
         <!-- Número 1 -->
-<div class="conversion">
-    <h3>1. Binario: <code>11101010101110₂</code></h3>
-  
-    <!-- ===== DECIMAL ===== -->
-    <div class="paso-conversion decimal">
-      <p><strong>Decimal:</strong></p>
-      <ul>
-        <li>1 x 2¹³ = 8192</li>
-        <li>1 x 2¹² = 4096</li>
-        <li>1 x 2¹¹ = 2048</li>
-        <li>0 x 2¹⁰ = 0</li>
-        <li>1 x 2⁹  = 512</li>
-        <li>0 x 2⁸  = 0</li>
-        <li>1 x 2⁷  = 128</li>
-        <li>0 x 2⁶  = 0</li>
-        <li>1 x 2⁵  = 32</li>
-        <li>0 x 2⁴  = 0</li>
-        <li>1 x 2³  = 8</li>
-        <li>1 x 2²  = 4</li>
-        <li>1 x 2¹  = 2</li>
-        <li>0 x 2⁰  = 0</li>
-      </ul>
-      <p>
-        Suma total = 8192 + 4096 + 2048 + 512 + 128 + 32 + 8 + 4 + 2  
-        = <strong>15022</strong>
-      </p>
+    <div class="conversion">
+        <h3>1. Binario: <code>11101010101110₂</code></h3>
+    
+        <!-- ===== DECIMAL ===== -->
+        <div class="paso-conversion decimal">
+        <p><strong>Decimal:</strong></p>
+        <ul>
+            <li>1 x 2¹³ = 8192</li>
+            <li>1 x 2¹² = 4096</li>
+            <li>1 x 2¹¹ = 2048</li>
+            <li>0 x 2¹⁰ = 0</li>
+            <li>1 x 2⁹  = 512</li>
+            <li>0 x 2⁸  = 0</li>
+            <li>1 x 2⁷  = 128</li>
+            <li>0 x 2⁶  = 0</li>
+            <li>1 x 2⁵  = 32</li>
+            <li>0 x 2⁴  = 0</li>
+            <li>1 x 2³  = 8</li>
+            <li>1 x 2²  = 4</li>
+            <li>1 x 2¹  = 2</li>
+            <li>0 x 2⁰  = 0</li>
+        </ul>
+        <p>
+            Suma total = 8192 + 4096 + 2048 + 512 + 128 + 32 + 8 + 4 + 2  
+            = <strong>15022</strong>
+        </p>
+        </div>
+    
+        <hr>
+    
+        <!-- ===== OCTAL ===== -->
+        <div class="paso-conversion octal">
+        <p><strong>Octal:</strong></p>
+        <!-- agrupamos de 3 en 3, de derecha a izquierda -->
+        <p>
+            <code class="agrupados">011 101 010 101 110</code> →  
+            <code class="digitos">3  5  2  5  6</code>  
+            = <strong>35256₈</strong>
+        </p>
+        </div>
+    
+        <hr>
+    
+        <!-- ===== HEXADECIMAL ===== -->
+        <div class="paso-conversion hexadecimal">
+        <p><strong>Hexadecimal:</strong></p>
+        <!-- agrupamos de 4 en 4, de derecha a izquierda -->
+        <p>
+            <code class="agrupados">0011 1010 1010 1110</code> →  
+            <code class="digitos">3  A  A  E</code>  
+            = <strong>3AAE₁₆</strong>
+        </p>
+        </div>
     </div>
-  
-    <hr>
-  
-    <!-- ===== OCTAL ===== -->
-    <div class="paso-conversion octal">
-      <p><strong>Octal:</strong></p>
-      <!-- agrupamos de 3 en 3, de derecha a izquierda -->
-      <p>
-        <code class="agrupados">011 101 010 101 110</code> →  
-        <code class="digitos">3  5  2  5  6</code>  
-        = <strong>35256₈</strong>
-      </p>
-    </div>
-  
-    <hr>
-  
-    <!-- ===== HEXADECIMAL ===== -->
-    <div class="paso-conversion hexadecimal">
-      <p><strong>Hexadecimal:</strong></p>
-      <!-- agrupamos de 4 en 4, de derecha a izquierda -->
-      <p>
-        <code class="agrupados">0011 1010 1010 1110</code> →  
-        <code class="digitos">3  A  A  E</code>  
-        = <strong>3AAE₁₆</strong>
-      </p>
-    </div>
-  </div>
   
         
 
