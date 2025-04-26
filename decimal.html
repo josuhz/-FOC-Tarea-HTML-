@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INV04</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>[FOC] Tarea HTML</h1>
+        <h2>Jose Emilio Alvarado & Josué Herrera</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="binario.html">Binario</a></li>
+                <li><a href="octal.html">Octal</a></li>
+                <li class="active"><a href="#">Decimal</a></li>
+                <li><a href="hexadecimal.html">Hexadecimal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido2">
+        <div class="conversion">
+            <h2>Conversión de Números Decimales</h2>
+          </div>
+
+        <!-- Número 1 -->
+        <div class="conversion">
+            <h3>1. Decimal: <code>123456789</code></h3>
+          
+            <!-- ===== BINARIO ===== -->
+            <div class="paso-conversion binario">
+              <p><strong>Binario:</strong></p>
+              <p>
+                123456789 ÷ 2 = 61728394 residuo 1<br>
+                61728394 ÷ 2 = 30864197 residuo 0<br>
+                30864197 ÷ 2 = 15432098 residuo 1<br>
+                15432098 ÷ 2 = 7716049 residuo 0<br>
+                7716049 ÷ 2 = 3858024 residuo 1<br>
+                3858024 ÷ 2 = 1929012 residuo 0<br>
+                1929012 ÷ 2 = 964506 residuo 0<br>
+                964506 ÷ 2 = 482253 residuo 0<br>
+                482253 ÷ 2 = 241126 residuo 1<br>
+                241126 ÷ 2 = 120563 residuo 0<br>
+                120563 ÷ 2 = 60281 residuo 1<br>
+                60281 ÷ 2 = 30140 residuo 1<br>
+                30140 ÷ 2 = 15070 residuo 0<br>
+                15070 ÷ 2 = 7535 residuo 0<br>
+                7535 ÷ 2 = 3767 residuo 1<br>
+                3767 ÷ 2 = 1883 residuo 1<br>
+                1883 ÷ 2 = 941 residuo 1<br>
+                941 ÷ 2 = 470 residuo 1<br>
+                470 ÷ 2 = 235 residuo 0<br>
+                235 ÷ 2 = 117 residuo 1<br>
+                117 ÷ 2 = 58 residuo 1<br>
+                58 ÷ 2 = 29 residuo 0<br>
+                29 ÷ 2 = 14 residuo 1<br>
+                14 ÷ 2 = 7 residuo 0<br>
+                7 ÷ 2 = 3 residuo 1<br>
+                3 ÷ 2 = 1 residuo 1<br>
+                1 ÷ 2 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>111010110111100110100010101</strong>
+              </p>
+            </div>
+          
+            <hr>
+          
+            <!-- ===== OCTAL ===== -->
+            <div class="paso-conversion octal">
+              <p><strong>Octal:</strong></p>
+              <p>
+                123456789 ÷ 8 = 15432098 residuo 5<br>
+                15432098 ÷ 8 = 1929012 residuo 2<br>
+                1929012 ÷ 8 = 241126 residuo 4<br>
+                241126 ÷ 8 = 30140 residuo 6<br>
+                30140 ÷ 8 = 3767 residuo 4<br>
+                3767 ÷ 8 = 470 residuo 7<br>
+                470 ÷ 8 = 58 residuo 6<br>
+                58 ÷ 8 = 7 residuo 2<br>
+                7 ÷ 8 = 0 residuo 7<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>726746425₈</strong>
+              </p>
+            </div>
+          
+            <hr>
+          
+            <!-- ===== HEXADECIMAL ===== -->
+            <div class="paso-conversion hexadecimal">
+              <p><strong>Hexadecimal:</strong></p>
+              <p>
+                123456789 ÷ 16 = 7716049 residuo 5<br>
+                7716049 ÷ 16 = 482253 residuo 1<br>
+                482253 ÷ 16 = 30140 residuo 13 = D<br>
+                30140 ÷ 16 = 1883 residuo 12 = C<br>
+                1883 ÷ 16 = 117 residuo 11 = B<br>
+                117 ÷ 16 = 7 residuo 5<br>
+                7 ÷ 16 = 0 residuo 7<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>75BCD15₁₆</strong>
+              </p>
+            </div>
+        </div>
+
+        <!-- Número 2 -->
+        <div class="conversion">
+            <h3>2. Decimal: <code>1714</code></h3>
+          
+            <!-- BINARIO -->
+            <div class="paso-conversion binario">
+              <p><strong>Binario:</strong></p>
+              <p>
+                1714 ÷ 2 = 857 residuo 0<br>
+                857 ÷ 2 = 428 residuo 1<br>
+                428 ÷ 2 = 214 residuo 0<br>
+                214 ÷ 2 = 107 residuo 0<br>
+                107 ÷ 2 = 53 residuo 1<br>
+                53 ÷ 2 = 26 residuo 1<br>
+                26 ÷ 2 = 13 residuo 0<br>
+                13 ÷ 2 = 6 residuo 1<br>
+                6 ÷ 2 = 3 residuo 0<br>
+                3 ÷ 2 = 1 residuo 1<br>
+                1 ÷ 2 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>11010110010₂</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- OCTAL -->
+            <div class="paso-conversion octal">
+              <p><strong>Octal:</strong></p>
+              <p>
+                1714 ÷ 8 = 214 residuo 2<br>
+                214 ÷ 8 = 26 residuo 6<br>
+                26 ÷ 8 = 3 residuo 2<br>
+                3 ÷ 8 = 0 residuo 3<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>3262₈</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- HEXADECIMAL -->
+            <div class="paso-conversion hexadecimal">
+              <p><strong>Hexadecimal:</strong></p>
+              <p>
+                1714 ÷ 16 = 107 residuo 2<br>
+                107 ÷ 16 = 6 residuo 11 = B<br>
+                6 ÷ 16 = 0 residuo 6<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>6B2₁₆</strong>
+              </p>
+            </div>
+        </div>
+
+        <!-- Número 3 -->
+        <div class="conversion">
+            <h3>3. Decimal: <code>8001</code></h3>
+          
+            <!-- BINARIO -->
+            <div class="paso-conversion binario">
+              <p><strong>Binario:</strong></p>
+              <p>
+                8001 ÷ 2 = 4000 residuo 1<br>
+                4000 ÷ 2 = 2000 residuo 0<br>
+                2000 ÷ 2 = 1000 residuo 0<br>
+                1000 ÷ 2 = 500 residuo 0<br>
+                500 ÷ 2 = 250 residuo 0<br>
+                250 ÷ 2 = 125 residuo 0<br>
+                125 ÷ 2 = 62 residuo 1<br>
+                62 ÷ 2 = 31 residuo 0<br>
+                31 ÷ 2 = 15 residuo 1<br>
+                15 ÷ 2 = 7 residuo 1<br>
+                7 ÷ 2 = 3 residuo 1<br>
+                3 ÷ 2 = 1 residuo 1<br>
+                1 ÷ 2 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>1111101000001₂</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- OCTAL -->
+            <div class="paso-conversion octal">
+              <p><strong>Octal:</strong></p>
+              <p>
+                8001 ÷ 8 = 1000 residuo 1<br>
+                1000 ÷ 8 = 125 residuo 0<br>
+                125 ÷ 8 = 15 residuo 5<br>
+                15 ÷ 8 = 1 residuo 7<br>
+                1 ÷ 8 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>17501₈</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- HEXADECIMAL -->
+            <div class="paso-conversion hexadecimal">
+              <p><strong>Hexadecimal:</strong></p>
+              <p>
+                8001 ÷ 16 = 500 residuo 1<br>
+                500 ÷ 16 = 31 residuo 4<br>
+                31 ÷ 16 = 1 residuo 15 = F<br>
+                1 ÷ 16 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>1F41₁₆</strong>
+              </p>
+            </div>
+        </div>
+
+        <!-- Número 4 -->
+        <div class="conversion">
+            <h3>4. Decimal: <code>11100111</code></h3>
+          
+            <!-- BINARIO -->
+            <div class="paso-conversion binario">
+              <p><strong>Binario:</strong></p>
+              <p>
+                11100111 ÷ 2 = 5550055 residuo 1<br>
+                5550055 ÷ 2 = 2775027 residuo 1<br>
+                2775027 ÷ 2 = 1387513 residuo 1<br>
+                1387513 ÷ 2 = 693756 residuo 1<br>
+                693756 ÷ 2 = 346878 residuo 0<br>
+                346878 ÷ 2 = 173439 residuo 0<br>
+                173439 ÷ 2 = 86719 residuo 1<br>
+                86719 ÷ 2 = 43359 residuo 1<br>
+                43359 ÷ 2 = 21679 residuo 1<br>
+                21679 ÷ 2 = 10839 residuo 1<br>
+                10839 ÷ 2 = 5419 residuo 1<br>
+                5419 ÷ 2 = 2709 residuo 1<br>
+                2709 ÷ 2 = 1354 residuo 1<br>
+                1354 ÷ 2 = 677 residuo 0<br>
+                677 ÷ 2 = 338 residuo 1<br>
+                338 ÷ 2 = 169 residuo 0<br>
+                169 ÷ 2 = 84 residuo 1<br>
+                84 ÷ 2 = 42 residuo 0<br>
+                42 ÷ 2 = 21 residuo 0<br>
+                21 ÷ 2 = 10 residuo 1<br>
+                10 ÷ 2 = 5 residuo 0<br>
+                5 ÷ 2 = 2 residuo 1<br>
+                2 ÷ 2 = 1 residuo 0<br>
+                1 ÷ 2 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>101010010101111000111₂</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- OCTAL -->
+            <div class="paso-conversion octal">
+              <p><strong>Octal:</strong></p>
+              <p>
+                11100111 ÷ 8 = 1387513 residuo 7<br>
+                1387513 ÷ 8 = 173439 residuo 1<br>
+                173439 ÷ 8 = 21679 residuo 7<br>
+                21679 ÷ 8 = 2709 residuo 7<br>
+                2709 ÷ 8 = 338 residuo 5<br>
+                338 ÷ 8 = 42 residuo 2<br>
+                42 ÷ 8 = 5 residuo 2<br>
+                5 ÷ 8 = 0 residuo 5<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>52257717₈</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- HEXADECIMAL -->
+            <div class="paso-conversion hexadecimal">
+              <p><strong>Hexadecimal:</strong></p>
+              <p>
+                11100111 ÷ 16 = 693756 residuo 7<br>
+                693756 ÷ 16 = 43359 residuo 12 = C<br>
+                43359 ÷ 16 = 2709 residuo 15 = F<br>
+                2709 ÷ 16 = 169 residuo 5<br>
+                169 ÷ 16 = 10 residuo 9<br>
+                10 ÷ 16 = 0 residuo 10 = A<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>A95FC7₁₆</strong>
+              </p>
+            </div>
+        </div>
+
+        <!-- Número 5 -->
+        <div class="conversion">
+            <h3>5. Decimal: <code>315</code></h3>
+          
+            <!-- BINARIO -->
+            <div class="paso-conversion binario">
+              <p><strong>Binario:</strong></p>
+              <p>
+                315 ÷ 2 = 157 residuo 1<br>
+                157 ÷ 2 = 78 residuo 1<br>
+                78 ÷ 2 = 39 residuo 0<br>
+                39 ÷ 2 = 19 residuo 1<br>
+                19 ÷ 2 = 9 residuo 1<br>
+                9 ÷ 2 = 4 residuo 1<br>
+                4 ÷ 2 = 2 residuo 0<br>
+                2 ÷ 2 = 1 residuo 0<br>
+                1 ÷ 2 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>100111011₂</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- OCTAL -->
+            <div class="paso-conversion octal">
+              <p><strong>Octal:</strong></p>
+              <p>
+                315 ÷ 8 = 39 residuo 3<br>
+                39 ÷ 8 = 4 residuo 7<br>
+                4 ÷ 8 = 0 residuo 4<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>473₈</strong>
+              </p>
+            </div>
+            <hr>
+          
+            <!-- HEXADECIMAL -->
+            <div class="paso-conversion hexadecimal">
+              <p><strong>Hexadecimal:</strong></p>
+              <p>
+                315 ÷ 16 = 19 residuo 11 = B<br>
+                19 ÷ 16 = 1 residuo 3<br>
+                1 ÷ 16 = 0 residuo 1<br>
+              </p>
+              <p>
+                Leyendo de abajo hacia arriba: <strong>13B₁₆</strong>
+              </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tarea HTML - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
